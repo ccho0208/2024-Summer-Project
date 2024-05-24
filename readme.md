@@ -11,7 +11,7 @@ This repository contains materials and projects related to deep neural networks.
 
 ## Introduction
 
-This repository is dedicated to documenting my journey through a summer project and learning series on artificial intelligence. It includes notes, code examples, and projects that I have worked on during the summer. The goal is to provide a comprehensive overview of the topics I have learned throughout the summer of 2024.
+This repository is dedicated to documenting my journey through a summer project and learning series on deep neural networks. It includes notes, code examples, and projects that I have worked on during the summer. The goal is to provide a comprehensive overview of the topics I have learned throughout the summer of 2024.
 
 ## Topics Covered
 
