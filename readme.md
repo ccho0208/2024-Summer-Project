@@ -1,6 +1,6 @@
 # AI Summer Lecture Notes and Projects
 
-This repository contains materials and projects related to  artificial intelligence. 
+This repository contains materials and projects related to deep neural networks. 
 
 ## Table of Contents
 
