@@ -11,7 +11,7 @@
 
 - [Backpropagation: Algorithm](https://en.wikipedia.org/wiki/Backpropagation)
 - [Backpropagation: Example](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures/240521%20-%20Back-propagation.pdf)
-- [Convolution network: Example] (https://www.youtube.com/watch?v=3PyJA9AfwSk)
+- [Convolution network: Example](https://www.youtube.com/watch?v=3PyJA9AfwSk)
 
 ## Modern CNNs
 - [AlexNet](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
