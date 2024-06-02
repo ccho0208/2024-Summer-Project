@@ -7,6 +7,7 @@
 ### 1) Basics of Deep Learning
 - [DL Basics (1/2)](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures/240517%20-%20DL%20Basics.pdf)
 - [DL Basics (2/2)](https://www.dropbox.com/scl/fi/k578ovlmj8ccpipa6y06k/deep_learning_basics.pdf?rlkey=m1sxy500zt5hf3zvszu5e3zlo&e=1&dl=0)
+- [DL Basics: Lex Fridman](https://www.dropbox.com/scl/fi/k578ovlmj8ccpipa6y06k/deep_learning_basics.pdf?rlkey=m1sxy500zt5hf3zvszu5e3zlo&e=1&dl=0)
 - [AI & Machine Learning Lectures by Lex Fridman](https://deeplearning.mit.edu)
 
 - [Backpropagation: Algorithm](https://en.wikipedia.org/wiki/Backpropagation)
