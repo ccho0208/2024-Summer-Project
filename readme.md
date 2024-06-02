@@ -16,6 +16,24 @@ This repository is dedicated to documenting my journey through a summer project 
 ## Setting Up Development Environment
 
 ### Virtual Environment
+1) If the packages (`python`, `pip package manager` and `venv`) are already installed, we create a new virtual environment by making a `~/.venv/venv_torch` directory to hold it:
+```
+$ python3 -m venv ~/.venv/venv_torch
+```
+2) Then, we activate the virtual environment using a shell-specific command:
+```
+$ source ~/.venv/venv_torch/bin/activate
+```
+3) When the virtual environment is active, the shell prompt is prefixed with `(venv_torch)`.
+4) Install packages (`pytorch`, `scikit-learn`, `matplotlib`, etc) within the virtual environment by using `pip`.
+```
+(venv_torch) $ pip install --upgrade pip
+(venv_torch) $ pip install torch torchvision torchaudio
+```
+6) To exit the virtual environment:
+```
+(venv_torch) $ deactivate
+```
 
 
 ### Colab
