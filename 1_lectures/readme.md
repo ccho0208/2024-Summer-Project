@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-![Classification Error and Network Evolution]([./summer-project.png](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/1_lectures/images/modern_cnn.jpg))
+![Classification Error and Network Evolution](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/1_lectures/images/modern_cnn.jpg)
 
 ### 1) Basics of Deep Learning
 - [DL Basics (1/2)](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures/240517%20-%20DL%20Basics.pdf)
