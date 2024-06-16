@@ -30,7 +30,7 @@ $ source ~/.venv/venv_torch/bin/activate
 (venv_torch) $ pip install --upgrade pip
 (venv_torch) $ pip install torch torchvision torchaudio
 ```
-6) To exit the virtual environment:
+5) To exit the virtual environment:
 ```
 (venv_torch) $ deactivate
 ```
