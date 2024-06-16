@@ -52,5 +52,7 @@ The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 
 
 ## Projects
 
+### 1) Images Classification using CNNs
+
 ## Resources
 
