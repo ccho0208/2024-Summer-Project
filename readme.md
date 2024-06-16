@@ -36,8 +36,10 @@ $ source ~/.venv/venv_torch/bin/activate
 ```
 
 ### Software Packages
-1) `scikit-learn`: `pip install -U scikit-learn`
-2) 
+1) scikit-learn: `pip install -U scikit-learn`
+2) matplotlib: `pip install matplotlib`
+3) PyYaml: `pip install PyYAML`
+4) PyTorch model summary: `pip install pytorch-model-summary`
 
 
 ### Colab
