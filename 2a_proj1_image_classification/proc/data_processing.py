@@ -17,7 +17,7 @@ def process_parameters(params):
     if params['path']['home'] == 'local':
         HOME = os.path.expanduser('~')
     elif params['path']['home'] == 'ssd':
-        HOME = '/Volumes/ZWork'
+        HOME = '/Volumes/DB'
     else:
         raise IOError('Error: setting for HOME folder [%d]' % params['path']['home'])
 
