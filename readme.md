@@ -54,5 +54,7 @@ The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 
 
 ### 1) Image Classification using CNNs
 
+The image classification pipeline implements CNN methods such as VGG, RESnet, and googlenet to classify CIFAR-10 image data. 
+
 ## Resources
 
