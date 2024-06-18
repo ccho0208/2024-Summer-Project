@@ -1,0 +1,50 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# Paths
+# ----------------------------------------------------------------------------------------------------------------------
+path:
+# local or ssd: local = '~', ssd = '/Volumes/DB'
+  home: 'local'
+# train-set
+  data_train: My_Kookie/database/0_prac/1_cifar10                     # train: train-set (input)
+  exp_model: Unzipped/!exp_prac/0_prac/1_cifar10                      # train: cnn-model (output)
+# eval-set
+  data_test: My_Kookie/database/0_prac/1_cifar10                      # eval: test-set (input)
+  exp_eval: Unzipped/!exp_prac/0_prac/1_cifar10                       # eval: eval-results (output)
+  models: checkpoint                                                  # path for model-checkpoints (output)
+  results: results                                                    # path for evaluation (output)
+
+# ----------------------------------------------------------------------------------------------------------------------
+# General
+# ----------------------------------------------------------------------------------------------------------------------
+general:
+# for meta data
+  fname_train: train.txt                                              # meta-data for training
+  fname_test: test.txt                                                # meta-data for testing
+  labels: !!null                                                      # all event-labels used
+  meta_train: !!null                                                  # storage for train-meta
+  meta_test: !!null                                                   # storage for test_meta
+# for logging/debugging
+  log_fname: log_eval.txt                                             # file for log-system
+  log_fid: !!null                                                     # fid for log-system
+# for augmentation
+  f_augment: false                                                    # flag for data augmentation
+# for test-id
+  test_id: 1a                                                         # test-id printed out on train-curve's title
+
+# ----------------------------------------------------------------------------------------------------------------------
+# Classifier
+# ----------------------------------------------------------------------------------------------------------------------
+classifier:
+# general
+  model: vgg16                                                        # model-type: lenet, vgg16 (default), resnet18
+  epochs: 200                                                         # number of epochs (200)
+  batch_size: 128                                                     # mini-batch size (128)
+  lr: 0.1                                                             # optim: init learn-rate (0.1)
+# learn-rate scheduler
+  f_lr: true                                                          # flag for learn-rate scheduler
+  lr_scheduler: 2                                                     # learn-rate scheduler (only if f_lr=true)
+                                                                      # 1: CosineAnnealingLR
+                                                                      # 2: CyclicLR
+                                                                      # 3: CosineAnnealingWarmRestarts
+                                                                      # 4: Custom CosineAnnealingWarmUpRestarts
+                                                                      #    `lr` should be zero  <---

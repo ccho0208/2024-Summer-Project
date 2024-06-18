@@ -1,0 +1,221 @@
+[21:59:05 16/06/24]: Set parameters
+.train-meta: /home/ccho/My_Kookie/database/0_prac/1_cifar10/train.txt
+.model-path: /home/ccho/Unzipped/!exp_prac/0_prac/1_cifar10
+.test-meta: /home/ccho/My_Kookie/database/0_prac/1_cifar10/test.txt
+.eval-path: /home/ccho/Unzipped/!exp_prac/0_prac/1_cifar10
+.labels: {'airplane': 0, 'automobile': 1, 'bird': 2, 'cat': 3, 'deer': 4, 'dog': 5, 'frog': 6, 'horse': 7, 'ship': 8, 'truck': 9}
+.train: 50000, test: 10000 and total: 60000
+.model-type: vgg16
+.epochs: 200, batch_size: 128
+
+[21:59:05 16/06/24]: Prepare data-loaders
+[INFO] NO data-augment used
+[21:59:05 16/06/24]: Define CNN model and loss function/optimizer
+[INFO] GPU 1 being used
+[INFO] learn-rate scheduler: CyclicLR
+[21:59:06 16/06/24]: Train the network
+.epoch [  1/200], train-acc: 0.5339, val-acc: 0.6139, train-loss: 1.29068, val-loss: 1.08225, lr: 0.00595 [CKPT]
+.epoch [  2/200], train-acc: 0.6494, val-acc: 0.6761, train-loss: 1.00163, val-loss: 0.95982, lr: 0.01090 [CKPT]
+.epoch [  3/200], train-acc: 0.7372, val-acc: 0.7275, train-loss: 0.76121, val-loss: 0.82896, lr: 0.01585 [CKPT]
+.epoch [  4/200], train-acc: 0.7800, val-acc: 0.7545, train-loss: 0.64062, val-loss: 0.73103, lr: 0.02080 [CKPT]
+.epoch [  5/200], train-acc: 0.8121, val-acc: 0.7189, train-loss: 0.54977, val-loss: 0.88032, lr: 0.02575
+.epoch [  6/200], train-acc: 0.8410, val-acc: 0.7471, train-loss: 0.46561, val-loss: 0.80151, lr: 0.03070
+.epoch [  7/200], train-acc: 0.8597, val-acc: 0.7657, train-loss: 0.40828, val-loss: 0.73965, lr: 0.03565
+.epoch [  8/200], train-acc: 0.8792, val-acc: 0.7608, train-loss: 0.35525, val-loss: 0.76394, lr: 0.04060
+.epoch [  9/200], train-acc: 0.8918, val-acc: 0.7881, train-loss: 0.31522, val-loss: 0.66864, lr: 0.04555 [CKPT]
+.epoch [ 10/200], train-acc: 0.9065, val-acc: 0.7564, train-loss: 0.27722, val-loss: 0.83212, lr: 0.05050
+.epoch [ 11/200], train-acc: 0.9154, val-acc: 0.7766, train-loss: 0.24308, val-loss: 0.78017, lr: 0.05545
+.epoch [ 12/200], train-acc: 0.9254, val-acc: 0.7943, train-loss: 0.22044, val-loss: 0.70879, lr: 0.06040
+.epoch [ 13/200], train-acc: 0.9275, val-acc: 0.7997, train-loss: 0.20981, val-loss: 0.68168, lr: 0.06535
+.epoch [ 14/200], train-acc: 0.9364, val-acc: 0.7877, train-loss: 0.18582, val-loss: 0.77252, lr: 0.07030
+.epoch [ 15/200], train-acc: 0.9362, val-acc: 0.7856, train-loss: 0.18507, val-loss: 0.74796, lr: 0.07525
+.epoch [ 16/200], train-acc: 0.9412, val-acc: 0.7967, train-loss: 0.17004, val-loss: 0.73651, lr: 0.08020
+.epoch [ 17/200], train-acc: 0.9426, val-acc: 0.7834, train-loss: 0.16280, val-loss: 0.76350, lr: 0.08515
+.epoch [ 18/200], train-acc: 0.9445, val-acc: 0.7825, train-loss: 0.15962, val-loss: 0.81016, lr: 0.09010
+.epoch [ 19/200], train-acc: 0.9463, val-acc: 0.7973, train-loss: 0.15793, val-loss: 0.72936, lr: 0.09505
+.epoch [ 20/200], train-acc: 0.9464, val-acc: 0.7671, train-loss: 0.15717, val-loss: 0.83980, lr: 0.10000
+.epoch [ 21/200], train-acc: 0.9468, val-acc: 0.8000, train-loss: 0.15695, val-loss: 0.70878, lr: 0.09505
+.epoch [ 22/200], train-acc: 0.9482, val-acc: 0.7441, train-loss: 0.15074, val-loss: 0.97729, lr: 0.09010
+.epoch [ 23/200], train-acc: 0.9549, val-acc: 0.7628, train-loss: 0.13024, val-loss: 0.94896, lr: 0.08515
+.epoch [ 24/200], train-acc: 0.9566, val-acc: 0.7778, train-loss: 0.12600, val-loss: 0.81599, lr: 0.08020
+.epoch [ 25/200], train-acc: 0.9622, val-acc: 0.7733, train-loss: 0.11288, val-loss: 0.87889, lr: 0.07525
+.epoch [ 26/200], train-acc: 0.9629, val-acc: 0.7646, train-loss: 0.10706, val-loss: 0.95953, lr: 0.07030
+.epoch [ 27/200], train-acc: 0.9661, val-acc: 0.7784, train-loss: 0.10004, val-loss: 0.84683, lr: 0.06535
+.epoch [ 28/200], train-acc: 0.9684, val-acc: 0.7793, train-loss: 0.09177, val-loss: 0.93147, lr: 0.06040
+.epoch [ 29/200], train-acc: 0.9712, val-acc: 0.7825, train-loss: 0.08430, val-loss: 0.85661, lr: 0.05545
+.epoch [ 30/200], train-acc: 0.9766, val-acc: 0.7615, train-loss: 0.07077, val-loss: 0.95018, lr: 0.05050
+.epoch [ 31/200], train-acc: 0.9741, val-acc: 0.7812, train-loss: 0.07567, val-loss: 0.87885, lr: 0.04555
+.epoch [ 32/200], train-acc: 0.9795, val-acc: 0.7892, train-loss: 0.06324, val-loss: 0.88321, lr: 0.04060
+.epoch [ 33/200], train-acc: 0.9812, val-acc: 0.8050, train-loss: 0.05516, val-loss: 0.78453, lr: 0.03565
+.epoch [ 34/200], train-acc: 0.9878, val-acc: 0.8111, train-loss: 0.03577, val-loss: 0.80082, lr: 0.03070
+.epoch [ 35/200], train-acc: 0.9929, val-acc: 0.8195, train-loss: 0.02224, val-loss: 0.80849, lr: 0.02575
+.epoch [ 36/200], train-acc: 0.9958, val-acc: 0.8296, train-loss: 0.01331, val-loss: 0.76527, lr: 0.02080
+.epoch [ 37/200], train-acc: 0.9986, val-acc: 0.8398, train-loss: 0.00520, val-loss: 0.72344, lr: 0.01585
+.epoch [ 38/200], train-acc: 0.9997, val-acc: 0.8495, train-loss: 0.00183, val-loss: 0.68713, lr: 0.01090
+.epoch [ 39/200], train-acc: 1.0000, val-acc: 0.8519, train-loss: 0.00079, val-loss: 0.67511, lr: 0.00595
+.epoch [ 40/200], train-acc: 1.0000, val-acc: 0.8521, train-loss: 0.00072, val-loss: 0.66753, lr: 0.00100 [CKPT]
+.epoch [ 41/200], train-acc: 1.0000, val-acc: 0.8524, train-loss: 0.00072, val-loss: 0.66717, lr: 0.00347 [CKPT]
+.epoch [ 42/200], train-acc: 1.0000, val-acc: 0.8524, train-loss: 0.00071, val-loss: 0.66109, lr: 0.00595 [CKPT]
+.epoch [ 43/200], train-acc: 1.0000, val-acc: 0.8540, train-loss: 0.00072, val-loss: 0.65568, lr: 0.00843 [CKPT]
+.epoch [ 44/200], train-acc: 1.0000, val-acc: 0.8529, train-loss: 0.00073, val-loss: 0.64799, lr: 0.01090 [CKPT]
+.epoch [ 45/200], train-acc: 1.0000, val-acc: 0.8540, train-loss: 0.00076, val-loss: 0.64062, lr: 0.01338 [CKPT]
+.epoch [ 46/200], train-acc: 1.0000, val-acc: 0.8554, train-loss: 0.00078, val-loss: 0.63506, lr: 0.01585 [CKPT]
+.epoch [ 47/200], train-acc: 1.0000, val-acc: 0.8539, train-loss: 0.00082, val-loss: 0.63152, lr: 0.01832 [CKPT]
+.epoch [ 48/200], train-acc: 1.0000, val-acc: 0.8552, train-loss: 0.00085, val-loss: 0.62459, lr: 0.02080 [CKPT]
+.epoch [ 49/200], train-acc: 1.0000, val-acc: 0.8551, train-loss: 0.00087, val-loss: 0.62307, lr: 0.02328 [CKPT]
+.epoch [ 50/200], train-acc: 1.0000, val-acc: 0.8544, train-loss: 0.00089, val-loss: 0.62311, lr: 0.02575
+.epoch [ 51/200], train-acc: 1.0000, val-acc: 0.8548, train-loss: 0.00090, val-loss: 0.61673, lr: 0.02822 [CKPT]
+.epoch [ 52/200], train-acc: 1.0000, val-acc: 0.8551, train-loss: 0.00090, val-loss: 0.62006, lr: 0.03070
+.epoch [ 53/200], train-acc: 1.0000, val-acc: 0.8558, train-loss: 0.00092, val-loss: 0.61625, lr: 0.03318 [CKPT]
+.epoch [ 54/200], train-acc: 0.9434, val-acc: 0.7140, train-loss: 0.17090, val-loss: 1.01986, lr: 0.03565
+.epoch [ 55/200], train-acc: 0.9087, val-acc: 0.7420, train-loss: 0.26936, val-loss: 0.92167, lr: 0.03813
+.epoch [ 56/200], train-acc: 0.9425, val-acc: 0.7382, train-loss: 0.16923, val-loss: 1.05885, lr: 0.04060
+.epoch [ 57/200], train-acc: 0.9517, val-acc: 0.7760, train-loss: 0.14187, val-loss: 0.84633, lr: 0.04307
+.epoch [ 58/200], train-acc: 0.9566, val-acc: 0.7799, train-loss: 0.12636, val-loss: 0.86001, lr: 0.04555
+.epoch [ 59/200], train-acc: 0.9571, val-acc: 0.7714, train-loss: 0.12438, val-loss: 0.87280, lr: 0.04803
+.epoch [ 60/200], train-acc: 0.9623, val-acc: 0.7832, train-loss: 0.11307, val-loss: 0.83604, lr: 0.05050
+.epoch [ 61/200], train-acc: 0.9624, val-acc: 0.7839, train-loss: 0.11033, val-loss: 0.81071, lr: 0.04803
+.epoch [ 62/200], train-acc: 0.9688, val-acc: 0.7645, train-loss: 0.09175, val-loss: 0.94285, lr: 0.04555
+.epoch [ 63/200], train-acc: 0.9738, val-acc: 0.7814, train-loss: 0.07785, val-loss: 0.96768, lr: 0.04307
+.epoch [ 64/200], train-acc: 0.9777, val-acc: 0.7839, train-loss: 0.06885, val-loss: 0.91399, lr: 0.04060
+.epoch [ 65/200], train-acc: 0.9779, val-acc: 0.7885, train-loss: 0.06500, val-loss: 0.86066, lr: 0.03813
+.epoch [ 66/200], train-acc: 0.9817, val-acc: 0.7983, train-loss: 0.05461, val-loss: 0.91648, lr: 0.03565
+.epoch [ 67/200], train-acc: 0.9818, val-acc: 0.8034, train-loss: 0.05489, val-loss: 0.83111, lr: 0.03318
+.epoch [ 68/200], train-acc: 0.9863, val-acc: 0.8075, train-loss: 0.04201, val-loss: 0.82477, lr: 0.03070
+.epoch [ 69/200], train-acc: 0.9867, val-acc: 0.8167, train-loss: 0.03903, val-loss: 0.80924, lr: 0.02822
+.epoch [ 70/200], train-acc: 0.9878, val-acc: 0.8095, train-loss: 0.03529, val-loss: 0.81475, lr: 0.02575
+.epoch [ 71/200], train-acc: 0.9924, val-acc: 0.8062, train-loss: 0.02379, val-loss: 0.86432, lr: 0.02328
+.epoch [ 72/200], train-acc: 0.9942, val-acc: 0.8231, train-loss: 0.01848, val-loss: 0.80623, lr: 0.02080
+.epoch [ 73/200], train-acc: 0.9973, val-acc: 0.8279, train-loss: 0.00988, val-loss: 0.81598, lr: 0.01832
+.epoch [ 74/200], train-acc: 0.9965, val-acc: 0.8309, train-loss: 0.01134, val-loss: 0.80095, lr: 0.01585
+.epoch [ 75/200], train-acc: 0.9988, val-acc: 0.8369, train-loss: 0.00452, val-loss: 0.77534, lr: 0.01338
+.epoch [ 76/200], train-acc: 0.9999, val-acc: 0.8491, train-loss: 0.00139, val-loss: 0.71268, lr: 0.01090
+.epoch [ 77/200], train-acc: 1.0000, val-acc: 0.8482, train-loss: 0.00070, val-loss: 0.69249, lr: 0.00843
+.epoch [ 78/200], train-acc: 1.0000, val-acc: 0.8481, train-loss: 0.00068, val-loss: 0.68794, lr: 0.00595
+.epoch [ 79/200], train-acc: 1.0000, val-acc: 0.8497, train-loss: 0.00071, val-loss: 0.67973, lr: 0.00347
+.epoch [ 80/200], train-acc: 1.0000, val-acc: 0.8497, train-loss: 0.00071, val-loss: 0.67672, lr: 0.00100
+.epoch [ 81/200], train-acc: 1.0000, val-acc: 0.8496, train-loss: 0.00071, val-loss: 0.67618, lr: 0.00224
+.epoch [ 82/200], train-acc: 1.0000, val-acc: 0.8498, train-loss: 0.00070, val-loss: 0.67331, lr: 0.00347
+.epoch [ 83/200], train-acc: 1.0000, val-acc: 0.8504, train-loss: 0.00072, val-loss: 0.66476, lr: 0.00471
+.epoch [ 84/200], train-acc: 1.0000, val-acc: 0.8494, train-loss: 0.00073, val-loss: 0.66732, lr: 0.00595
+.epoch [ 85/200], train-acc: 1.0000, val-acc: 0.8509, train-loss: 0.00075, val-loss: 0.66180, lr: 0.00719
+.epoch [ 86/200], train-acc: 1.0000, val-acc: 0.8507, train-loss: 0.00076, val-loss: 0.65783, lr: 0.00842
+.epoch [ 87/200], train-acc: 1.0000, val-acc: 0.8504, train-loss: 0.00081, val-loss: 0.65330, lr: 0.00966
+.epoch [ 88/200], train-acc: 1.0000, val-acc: 0.8521, train-loss: 0.00081, val-loss: 0.65158, lr: 0.01090
+.epoch [ 89/200], train-acc: 1.0000, val-acc: 0.8522, train-loss: 0.00082, val-loss: 0.64385, lr: 0.01214
+.epoch [ 90/200], train-acc: 1.0000, val-acc: 0.8520, train-loss: 0.00086, val-loss: 0.64209, lr: 0.01338
+.epoch [ 91/200], train-acc: 1.0000, val-acc: 0.8527, train-loss: 0.00087, val-loss: 0.63807, lr: 0.01461
+.epoch [ 92/200], train-acc: 1.0000, val-acc: 0.8523, train-loss: 0.00088, val-loss: 0.63621, lr: 0.01585
+.epoch [ 93/200], train-acc: 1.0000, val-acc: 0.8519, train-loss: 0.00088, val-loss: 0.63151, lr: 0.01709
+.epoch [ 94/200], train-acc: 1.0000, val-acc: 0.8529, train-loss: 0.00089, val-loss: 0.62583, lr: 0.01833
+.epoch [ 95/200], train-acc: 1.0000, val-acc: 0.8540, train-loss: 0.00092, val-loss: 0.62774, lr: 0.01956
+.epoch [ 96/200], train-acc: 1.0000, val-acc: 0.8538, train-loss: 0.00091, val-loss: 0.62518, lr: 0.02080
+.epoch [ 97/200], train-acc: 1.0000, val-acc: 0.8550, train-loss: 0.00091, val-loss: 0.61722, lr: 0.02204
+.epoch [ 98/200], train-acc: 1.0000, val-acc: 0.8554, train-loss: 0.00092, val-loss: 0.61934, lr: 0.02328
+.epoch [ 99/200], train-acc: 1.0000, val-acc: 0.8538, train-loss: 0.00091, val-loss: 0.61955, lr: 0.02451
+.epoch [100/200], train-acc: 1.0000, val-acc: 0.8554, train-loss: 0.00092, val-loss: 0.61357, lr: 0.02575 [CKPT]
+.epoch [101/200], train-acc: 1.0000, val-acc: 0.8554, train-loss: 0.00092, val-loss: 0.61326, lr: 0.02451 [CKPT]
+.epoch [102/200], train-acc: 1.0000, val-acc: 0.8549, train-loss: 0.00091, val-loss: 0.60873, lr: 0.02328 [CKPT]
+.epoch [103/200], train-acc: 1.0000, val-acc: 0.8564, train-loss: 0.00091, val-loss: 0.60786, lr: 0.02204 [CKPT]
+.epoch [104/200], train-acc: 1.0000, val-acc: 0.8567, train-loss: 0.00092, val-loss: 0.60598, lr: 0.02080 [CKPT]
+.epoch [105/200], train-acc: 1.0000, val-acc: 0.8555, train-loss: 0.00091, val-loss: 0.60575, lr: 0.01956 [CKPT]
+.epoch [106/200], train-acc: 1.0000, val-acc: 0.8546, train-loss: 0.00091, val-loss: 0.60663, lr: 0.01833
+.epoch [107/200], train-acc: 1.0000, val-acc: 0.8562, train-loss: 0.00092, val-loss: 0.60269, lr: 0.01709 [CKPT]
+.epoch [108/200], train-acc: 1.0000, val-acc: 0.8570, train-loss: 0.00091, val-loss: 0.60096, lr: 0.01585 [CKPT]
+.epoch [109/200], train-acc: 1.0000, val-acc: 0.8576, train-loss: 0.00091, val-loss: 0.59485, lr: 0.01461 [CKPT]
+.epoch [110/200], train-acc: 1.0000, val-acc: 0.8574, train-loss: 0.00090, val-loss: 0.59435, lr: 0.01338 [CKPT]
+.epoch [111/200], train-acc: 1.0000, val-acc: 0.8573, train-loss: 0.00091, val-loss: 0.59566, lr: 0.01214
+.epoch [112/200], train-acc: 1.0000, val-acc: 0.8570, train-loss: 0.00090, val-loss: 0.59242, lr: 0.01090 [CKPT]
+.epoch [113/200], train-acc: 1.0000, val-acc: 0.8580, train-loss: 0.00090, val-loss: 0.58870, lr: 0.00966 [CKPT]
+.epoch [114/200], train-acc: 1.0000, val-acc: 0.8566, train-loss: 0.00090, val-loss: 0.59170, lr: 0.00842
+.epoch [115/200], train-acc: 1.0000, val-acc: 0.8583, train-loss: 0.00090, val-loss: 0.58836, lr: 0.00719 [CKPT]
+.epoch [116/200], train-acc: 1.0000, val-acc: 0.8578, train-loss: 0.00091, val-loss: 0.58570, lr: 0.00595 [CKPT]
+.epoch [117/200], train-acc: 1.0000, val-acc: 0.8566, train-loss: 0.00089, val-loss: 0.58856, lr: 0.00471
+.epoch [118/200], train-acc: 1.0000, val-acc: 0.8570, train-loss: 0.00091, val-loss: 0.58754, lr: 0.00347
+.epoch [119/200], train-acc: 1.0000, val-acc: 0.8565, train-loss: 0.00090, val-loss: 0.58369, lr: 0.00224 [CKPT]
+.epoch [120/200], train-acc: 1.0000, val-acc: 0.8576, train-loss: 0.00090, val-loss: 0.58502, lr: 0.00100
+.epoch [121/200], train-acc: 1.0000, val-acc: 0.8572, train-loss: 0.00090, val-loss: 0.58497, lr: 0.00162
+.epoch [122/200], train-acc: 1.0000, val-acc: 0.8593, train-loss: 0.00091, val-loss: 0.57978, lr: 0.00224 [CKPT]
+.epoch [123/200], train-acc: 1.0000, val-acc: 0.8580, train-loss: 0.00090, val-loss: 0.58336, lr: 0.00286
+.epoch [124/200], train-acc: 1.0000, val-acc: 0.8580, train-loss: 0.00090, val-loss: 0.58430, lr: 0.00347
+.epoch [125/200], train-acc: 1.0000, val-acc: 0.8572, train-loss: 0.00090, val-loss: 0.58562, lr: 0.00409
+.epoch [126/200], train-acc: 1.0000, val-acc: 0.8573, train-loss: 0.00090, val-loss: 0.58008, lr: 0.00471
+.epoch [127/200], train-acc: 1.0000, val-acc: 0.8571, train-loss: 0.00090, val-loss: 0.58296, lr: 0.00533
+.epoch [128/200], train-acc: 1.0000, val-acc: 0.8585, train-loss: 0.00090, val-loss: 0.58075, lr: 0.00595
+.epoch [129/200], train-acc: 1.0000, val-acc: 0.8574, train-loss: 0.00089, val-loss: 0.57922, lr: 0.00657 [CKPT]
+.epoch [130/200], train-acc: 1.0000, val-acc: 0.8583, train-loss: 0.00090, val-loss: 0.58036, lr: 0.00719
+.epoch [131/200], train-acc: 1.0000, val-acc: 0.8580, train-loss: 0.00090, val-loss: 0.58098, lr: 0.00781
+.epoch [132/200], train-acc: 1.0000, val-acc: 0.8579, train-loss: 0.00090, val-loss: 0.57776, lr: 0.00842 [CKPT]
+.epoch [133/200], train-acc: 1.0000, val-acc: 0.8582, train-loss: 0.00090, val-loss: 0.57425, lr: 0.00904 [CKPT]
+.epoch [134/200], train-acc: 1.0000, val-acc: 0.8575, train-loss: 0.00091, val-loss: 0.57690, lr: 0.00966
+.epoch [135/200], train-acc: 1.0000, val-acc: 0.8580, train-loss: 0.00090, val-loss: 0.57415, lr: 0.01028 [CKPT]
+.epoch [136/200], train-acc: 1.0000, val-acc: 0.8587, train-loss: 0.00089, val-loss: 0.57002, lr: 0.01090 [CKPT]
+.epoch [137/200], train-acc: 1.0000, val-acc: 0.8582, train-loss: 0.00090, val-loss: 0.57239, lr: 0.01152
+.epoch [138/200], train-acc: 1.0000, val-acc: 0.8589, train-loss: 0.00090, val-loss: 0.56914, lr: 0.01214 [CKPT]
+.epoch [139/200], train-acc: 1.0000, val-acc: 0.8589, train-loss: 0.00090, val-loss: 0.56896, lr: 0.01276 [CKPT]
+.epoch [140/200], train-acc: 1.0000, val-acc: 0.8578, train-loss: 0.00090, val-loss: 0.56654, lr: 0.01338 [CKPT]
+.epoch [141/200], train-acc: 1.0000, val-acc: 0.8582, train-loss: 0.00090, val-loss: 0.56521, lr: 0.01276 [CKPT]
+.epoch [142/200], train-acc: 1.0000, val-acc: 0.8564, train-loss: 0.00089, val-loss: 0.56311, lr: 0.01214 [CKPT]
+.epoch [143/200], train-acc: 1.0000, val-acc: 0.8590, train-loss: 0.00090, val-loss: 0.55871, lr: 0.01152 [CKPT]
+.epoch [144/200], train-acc: 1.0000, val-acc: 0.8594, train-loss: 0.00089, val-loss: 0.55630, lr: 0.01090 [CKPT]
+.epoch [145/200], train-acc: 1.0000, val-acc: 0.8588, train-loss: 0.00090, val-loss: 0.55583, lr: 0.01028 [CKPT]
+.epoch [146/200], train-acc: 1.0000, val-acc: 0.8584, train-loss: 0.00089, val-loss: 0.55549, lr: 0.00966 [CKPT]
+.epoch [147/200], train-acc: 1.0000, val-acc: 0.8593, train-loss: 0.00089, val-loss: 0.55726, lr: 0.00904
+.epoch [148/200], train-acc: 1.0000, val-acc: 0.8592, train-loss: 0.00089, val-loss: 0.55029, lr: 0.00842 [CKPT]
+.epoch [149/200], train-acc: 1.0000, val-acc: 0.8610, train-loss: 0.00090, val-loss: 0.54972, lr: 0.00781 [CKPT]
+.epoch [150/200], train-acc: 1.0000, val-acc: 0.8606, train-loss: 0.00089, val-loss: 0.55046, lr: 0.00719
+.epoch [151/200], train-acc: 1.0000, val-acc: 0.8613, train-loss: 0.00090, val-loss: 0.54509, lr: 0.00657 [CKPT]
+.epoch [152/200], train-acc: 1.0000, val-acc: 0.8607, train-loss: 0.00089, val-loss: 0.54480, lr: 0.00595 [CKPT]
+.epoch [153/200], train-acc: 1.0000, val-acc: 0.8605, train-loss: 0.00090, val-loss: 0.54482, lr: 0.00533
+.epoch [154/200], train-acc: 1.0000, val-acc: 0.8618, train-loss: 0.00090, val-loss: 0.54400, lr: 0.00471 [CKPT]
+.epoch [155/200], train-acc: 1.0000, val-acc: 0.8611, train-loss: 0.00089, val-loss: 0.54392, lr: 0.00409 [CKPT]
+.epoch [156/200], train-acc: 1.0000, val-acc: 0.8620, train-loss: 0.00088, val-loss: 0.54356, lr: 0.00347 [CKPT]
+.epoch [157/200], train-acc: 1.0000, val-acc: 0.8609, train-loss: 0.00090, val-loss: 0.54534, lr: 0.00286
+.epoch [158/200], train-acc: 1.0000, val-acc: 0.8598, train-loss: 0.00088, val-loss: 0.54722, lr: 0.00224
+.epoch [159/200], train-acc: 1.0000, val-acc: 0.8613, train-loss: 0.00090, val-loss: 0.54450, lr: 0.00162
+.epoch [160/200], train-acc: 1.0000, val-acc: 0.8607, train-loss: 0.00088, val-loss: 0.54447, lr: 0.00100
+.epoch [161/200], train-acc: 1.0000, val-acc: 0.8600, train-loss: 0.00089, val-loss: 0.54275, lr: 0.00131 [CKPT]
+.epoch [162/200], train-acc: 1.0000, val-acc: 0.8614, train-loss: 0.00090, val-loss: 0.54407, lr: 0.00162
+.epoch [163/200], train-acc: 1.0000, val-acc: 0.8622, train-loss: 0.00088, val-loss: 0.54026, lr: 0.00193 [CKPT]
+.epoch [164/200], train-acc: 1.0000, val-acc: 0.8602, train-loss: 0.00089, val-loss: 0.54378, lr: 0.00224
+.epoch [165/200], train-acc: 1.0000, val-acc: 0.8605, train-loss: 0.00089, val-loss: 0.54457, lr: 0.00255
+.epoch [166/200], train-acc: 1.0000, val-acc: 0.8613, train-loss: 0.00090, val-loss: 0.54136, lr: 0.00286
+.epoch [167/200], train-acc: 1.0000, val-acc: 0.8621, train-loss: 0.00089, val-loss: 0.54094, lr: 0.00317
+.epoch [168/200], train-acc: 1.0000, val-acc: 0.8631, train-loss: 0.00089, val-loss: 0.54221, lr: 0.00348
+.epoch [169/200], train-acc: 1.0000, val-acc: 0.8631, train-loss: 0.00090, val-loss: 0.54146, lr: 0.00378
+.epoch [170/200], train-acc: 1.0000, val-acc: 0.8600, train-loss: 0.00090, val-loss: 0.54188, lr: 0.00409
+.epoch [171/200], train-acc: 1.0000, val-acc: 0.8612, train-loss: 0.00089, val-loss: 0.53995, lr: 0.00440 [CKPT]
+.epoch [172/200], train-acc: 1.0000, val-acc: 0.8606, train-loss: 0.00089, val-loss: 0.54086, lr: 0.00471
+.epoch [173/200], train-acc: 1.0000, val-acc: 0.8620, train-loss: 0.00089, val-loss: 0.54066, lr: 0.00502
+.epoch [174/200], train-acc: 1.0000, val-acc: 0.8616, train-loss: 0.00090, val-loss: 0.54001, lr: 0.00533
+.epoch [175/200], train-acc: 1.0000, val-acc: 0.8624, train-loss: 0.00089, val-loss: 0.53671, lr: 0.00564 [CKPT]
+.epoch [176/200], train-acc: 1.0000, val-acc: 0.8605, train-loss: 0.00089, val-loss: 0.53972, lr: 0.00595
+.epoch [177/200], train-acc: 1.0000, val-acc: 0.8626, train-loss: 0.00090, val-loss: 0.53425, lr: 0.00626 [CKPT]
+.epoch [178/200], train-acc: 1.0000, val-acc: 0.8614, train-loss: 0.00089, val-loss: 0.53517, lr: 0.00657
+.epoch [179/200], train-acc: 1.0000, val-acc: 0.8623, train-loss: 0.00089, val-loss: 0.53667, lr: 0.00688
+.epoch [180/200], train-acc: 1.0000, val-acc: 0.8627, train-loss: 0.00090, val-loss: 0.53626, lr: 0.00719
+.epoch [181/200], train-acc: 1.0000, val-acc: 0.8632, train-loss: 0.00089, val-loss: 0.53439, lr: 0.00688
+.epoch [182/200], train-acc: 1.0000, val-acc: 0.8611, train-loss: 0.00090, val-loss: 0.53889, lr: 0.00657
+.epoch [183/200], train-acc: 1.0000, val-acc: 0.8633, train-loss: 0.00089, val-loss: 0.53454, lr: 0.00626
+.epoch [184/200], train-acc: 1.0000, val-acc: 0.8634, train-loss: 0.00089, val-loss: 0.53456, lr: 0.00595
+.epoch [185/200], train-acc: 1.0000, val-acc: 0.8647, train-loss: 0.00089, val-loss: 0.53349, lr: 0.00564 [CKPT]
+.epoch [186/200], train-acc: 1.0000, val-acc: 0.8625, train-loss: 0.00089, val-loss: 0.53361, lr: 0.00533
+.epoch [187/200], train-acc: 1.0000, val-acc: 0.8632, train-loss: 0.00089, val-loss: 0.53227, lr: 0.00502 [CKPT]
+.epoch [188/200], train-acc: 1.0000, val-acc: 0.8615, train-loss: 0.00088, val-loss: 0.53536, lr: 0.00471
+.epoch [189/200], train-acc: 1.0000, val-acc: 0.8625, train-loss: 0.00088, val-loss: 0.53556, lr: 0.00440
+.epoch [190/200], train-acc: 1.0000, val-acc: 0.8640, train-loss: 0.00090, val-loss: 0.53062, lr: 0.00409 [CKPT]
+.epoch [191/200], train-acc: 1.0000, val-acc: 0.8629, train-loss: 0.00090, val-loss: 0.53323, lr: 0.00378
+.epoch [192/200], train-acc: 1.0000, val-acc: 0.8618, train-loss: 0.00088, val-loss: 0.53362, lr: 0.00348
+.epoch [193/200], train-acc: 1.0000, val-acc: 0.8628, train-loss: 0.00089, val-loss: 0.52919, lr: 0.00317 [CKPT]
+.epoch [194/200], train-acc: 1.0000, val-acc: 0.8639, train-loss: 0.00090, val-loss: 0.53367, lr: 0.00286
+.epoch [195/200], train-acc: 1.0000, val-acc: 0.8613, train-loss: 0.00090, val-loss: 0.53354, lr: 0.00255
+.epoch [196/200], train-acc: 1.0000, val-acc: 0.8630, train-loss: 0.00089, val-loss: 0.53064, lr: 0.00224
+.epoch [197/200], train-acc: 1.0000, val-acc: 0.8634, train-loss: 0.00088, val-loss: 0.53074, lr: 0.00193
+.epoch [198/200], train-acc: 1.0000, val-acc: 0.8637, train-loss: 0.00089, val-loss: 0.52933, lr: 0.00162
+.epoch [199/200], train-acc: 1.0000, val-acc: 0.8638, train-loss: 0.00089, val-loss: 0.53264, lr: 0.00131
+.epoch [200/200], train-acc: 1.0000, val-acc: 0.8633, train-loss: 0.00089, val-loss: 0.53156, lr: 0.00100
+[22:48:41 16/06/24]: Test the network
+[EVAL] accuracy on the 10000 test images: 86.28%
+[EVAL] 1372 / 10000
+
+[22:48:44 16/06/24]: Elapsed 49.66 minutes
