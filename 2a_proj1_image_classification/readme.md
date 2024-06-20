@@ -11,9 +11,6 @@ The project leverages state-of-the-art CNN architectures, including:
    
 2. **ResNet (Residual Network):**
    - Introduced by Microsoft Research, ResNet addresses the vanishing gradient problem by using skip connections or residuals. This allows the network to learn identity functions, making it possible to train very deep networks (e.g., ResNet-50, ResNet-101).
-   
-3. **GoogLeNet (Inception Network):**
-   - Developed by Google, this architecture incorporates Inception modules that allow the network to capture multi-scale features by using multiple filters of different sizes in parallel. The project utilizes the Inception-v1 (GoogLeNet) variant.
 
 ## Pipeline
 The image classification pipeline involves several key steps:
