@@ -2,16 +2,16 @@
 
 ## Topics Covered
 
-![Classification Error and Network Evolution](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/1_lectures/images/modern_cnn.jpg)
+![Classification Error and Network Evolution](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/1_lectures_basics/images/modern_cnn.jpg)
 
 ### 1) Basics of Deep Learning
-- [DL Basics (1/2)](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures/240517%20-%20DL%20Basics.pdf)
+- [DL Basics (1/2)](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures_basics/240517%20-%20DL%20Basics.pdf)
 - [DL Basics (2/2)](https://www.dropbox.com/scl/fi/k578ovlmj8ccpipa6y06k/deep_learning_basics.pdf?rlkey=m1sxy500zt5hf3zvszu5e3zlo&e=1&dl=0)
 - [DL Basics: Lex Fridman](https://www.dropbox.com/scl/fi/k578ovlmj8ccpipa6y06k/deep_learning_basics.pdf?rlkey=m1sxy500zt5hf3zvszu5e3zlo&e=1&dl=0)
 - [AI & Machine Learning Lectures by Lex Fridman](https://deeplearning.mit.edu)
 
 - [Backpropagation: Algorithm](https://en.wikipedia.org/wiki/Backpropagation)
-- [Backpropagation: Example](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures/240521%20-%20Back-propagation.pdf)
+- [Backpropagation: Example](https://github.com/ccho0208/2024-summer-project_DeepLearning/blob/main/1_lectures_basics/240521%20-%20Back-propagation.pdf)
 - [Convolution network: Example](https://www.youtube.com/watch?v=3PyJA9AfwSk)
 
 ### 2) Modern CNNs
