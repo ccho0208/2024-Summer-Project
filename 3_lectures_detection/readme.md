@@ -5,9 +5,9 @@ This repository contains lecture series PDFs on two advanced topics in the field
 
 ## Performance Metrics
 
-### 1. Precision and Recall ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/240620%20-%20Precision%20and%20Recall.pdf))
+### 1. Precision and Recall ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/0a%20-%20Precision%20and%20Recall.pdf))
 
-### 2. mAP: mean Average Precision ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/240622%20-%20mAP.pdf))
+### 2. mAP: mean Average Precision ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/0b%20-%20mAP.pdf))
 - A survey on performance metrics for object-detection algorithms ([link](https://www.youtube.com/watch?v=c45jSJ3WGds&list=PLoEMreTa9CNm18TPHIYm3t2CLIqxLxzYD&index=1))
 - mAP (mean Average Precision) [link](https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173)
 
@@ -27,5 +27,5 @@ The second topic focuses on Spatial Pyramid Pooling Networks (SPPNs), which enha
 
 ## Files Included
 - Good reference from Lecture series (Prof. Maziar Raissi @CU, [link](https://github.com/maziarraissi/Applied-Deep-Learning))
-- `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis.
-- `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs.
+- `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/1%20-%20Region-Based%20Convolutional%20Neural%20Networks.pdf))
+- `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/2%20-%20Spatial%20Pyramid%20Pooling%20Networks.pdf))
