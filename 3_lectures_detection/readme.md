@@ -26,5 +26,6 @@ The second topic focuses on Spatial Pyramid Pooling Networks (SPPNs), which enha
 - **Flexibility in Spatial Size**: This method allows the model to handle objects of varying spatial sizes without needing to warp or crop them to a fixed size.
 
 ## Files Included
+- Good reference from Lecture series (Prof. Maziar Raissi @CU, [link](https://github.com/maziarraissi/Applied-Deep-Learning))
 - `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis.
 - `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs.
