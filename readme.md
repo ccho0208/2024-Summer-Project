@@ -6,6 +6,7 @@ This repository contains materials and projects related to deep neural networks.
 
 - [Introduction](#introduction)
 - [Development Environment](#set_up)
+- [Database](#dataset)
 - [Projects](#projects)
 - [Resources](#resources)
 
@@ -52,7 +53,7 @@ The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 
 
 ## Projects
 
-### 1) Image Classification using CNNs
+### 1) Image Classification using CNNs ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/tree/main/2_proj_image_classification))
 
 The image classification pipeline implements CNN methods such as VGG and ResNet to classify CIFAR-10 image data. 
 
