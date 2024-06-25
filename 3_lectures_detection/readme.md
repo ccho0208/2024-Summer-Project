@@ -1,11 +1,11 @@
-# Lecture Series on Advanced Object Detection Techniques
+# Lecture Series on Object Detection Techniques
 
 ## Overview
 This repository contains lecture series PDFs on two advanced topics in the field of object detection using Convolutional Neural Networks (CNNs). The lectures cover foundational techniques and innovative methods in object detection, detailing their methodologies, implementations, and performance considerations.
 
 ## Topics Covered
 
-### 1. Region-Based Convolutional Neural Networks (R-CNNs)
+### 1. Region-Based Convolutional Neural Networks (R-CNNs, [link](https://arxiv.org/pdf/1311.2524))
 The first topic in this lecture series delves into R-CNNs, the pioneering approach that utilized CNNs for object detection. Key points include:
 - **Region Proposals**: R-CNNs use selective search to generate approximately 2000 region proposals per image.
 - **Feature Extraction**: The model employs AlexNet for feature extraction from each proposed region.
