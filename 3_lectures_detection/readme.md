@@ -32,9 +32,9 @@ The third topic discusses Fast R-CNN, an improved version of R-CNN that streamli
 - **Classification and Regression**: These fixed-size feature vectors are fed into a softmax classifier (with \( k+1 \) classes) and a regressor for bounding box prediction.
 - **Loss Function**: The loss function is defined as:
 
-  \[
+  $$
   \text{loss} = L_{\text{cls}}(p,u) + \lambda [u \geq 1] L_{\text{loc}}(t,n)
-  \]
+  $$
 
   where \( L_{\text{cls}} \) is the classification loss and \( L_{\text{loc}} \) is the localization loss.
 
