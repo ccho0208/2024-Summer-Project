@@ -25,7 +25,21 @@ The second topic focuses on Spatial Pyramid Pooling Networks (SPPNs), which enha
 - **Fixed-Length Representations**: SPPNs use spatial pyramid pooling to convert region proposals into fixed-length representations, suitable for fully connected networks.
 - **Flexibility in Spatial Size**: This method allows the model to handle objects of varying spatial sizes without needing to warp or crop them to a fixed size.
 
+### 3. Fast R-CNN
+The third topic discusses Fast R-CNN, an improved version of R-CNN that streamlines the object detection process. Key points include:
+- **ROI Projection**: Fast R-CNN projects Region of Interest (ROI) proposals onto a convolutional feature map.
+- **ROI Pooling**: The method uses ROI pooling layers to convert variable-sized ROIs into fixed-size feature vectors.
+- **Classification and Regression**: These fixed-size feature vectors are fed into a softmax classifier (with k+1 classes) and a regressor for bounding box prediction.
+- **Loss Function**: The loss function is defined as `loss = L_{cls}(p,u) + \lambda[u>=1]L_{loc}(t,n)` where `L_{cls}` is the classification loss and `L_{loc}` is the localization loss.
+
+### 4. Faster R-CNN
+The fourth topic covers Faster R-CNN, which introduces a deep learning-based approach for region proposal generation. Key points include:
+- **Region Proposal Network (RPN)**: Faster R-CNN integrates a Region Proposal Network that generates region proposals, making the detection process end-to-end.
+- **Anchor Boxes**: The use of anchor boxes in the RPN helps in predicting bounding boxes of different scales and aspect ratios.
+- **Pipeline**: The overall pipeline consists of feature extraction -> region proposal -> bounding boxes, streamlining the detection process and significantly improving speed and accuracy.
+
 ## Files Included
-- Good reference from Lecture series (Prof. Maziar Raissi @CU, [link](https://github.com/maziarraissi/Applied-Deep-Learning))
-- `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/1%20-%20Region-Based%20Convolutional%20Neural%20Networks.pdf))
-- `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/blob/main/3_lectures_detection/2%20-%20Spatial%20Pyramid%20Pooling%20Networks.pdf))
+- `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis.
+- `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs.
+- `Lecture_Fast_R-CNN.pdf`: Insights into Fast R-CNN, explaining its ROI projection, pooling layers, classification and regression, and loss function.
+- `Lecture_Faster_R-CNN.pdf`: Explanation of Faster R-CNN, focusing on its Region Proposal Network, anchor boxes, and streamlined pipeline.
