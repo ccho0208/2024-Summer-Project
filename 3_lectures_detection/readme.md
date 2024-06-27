@@ -36,7 +36,7 @@ The third topic discusses Fast R-CNN, an improved version of R-CNN that streamli
   \text{loss} = L_{\text{cls}}(p,u) + \lambda [u \geq 1] L_{\text{loc}}(t,n)
   $$
 
-  where \( L_{\text{cls}} \) is the classification loss and \( L_{\text{loc}} \) is the localization loss.
+  where \( $L_{\text{cls}}$ \) is the classification loss and \( $L_{\text{loc}}$ \) is the localization loss.
 
 ### 4. Faster R-CNN
 The fourth topic covers Faster R-CNN, which introduces a deep learning-based approach for region proposal generation. Key points include:
