@@ -29,8 +29,14 @@ The second topic focuses on Spatial Pyramid Pooling Networks (SPPNs), which enha
 The third topic discusses Fast R-CNN, an improved version of R-CNN that streamlines the object detection process. Key points include:
 - **ROI Projection**: Fast R-CNN projects Region of Interest (ROI) proposals onto a convolutional feature map.
 - **ROI Pooling**: The method uses ROI pooling layers to convert variable-sized ROIs into fixed-size feature vectors.
-- **Classification and Regression**: These fixed-size feature vectors are fed into a softmax classifier (with k+1 classes) and a regressor for bounding box prediction.
-- **Loss Function**: The loss function is defined as `loss = L_{cls}(p,u) + \lambda[u>=1]L_{loc}(t,n)` where `L_{cls}` is the classification loss and `L_{loc}` is the localization loss.
+- **Classification and Regression**: These fixed-size feature vectors are fed into a softmax classifier (with \( k+1 \) classes) and a regressor for bounding box prediction.
+- **Loss Function**: The loss function is defined as:
+
+  \[
+  \text{loss} = L_{\text{cls}}(p,u) + \lambda [u \geq 1] L_{\text{loc}}(t,n)
+  \]
+
+  where \( L_{\text{cls}} \) is the classification loss and \( L_{\text{loc}} \) is the localization loss.
 
 ### 4. Faster R-CNN
 The fourth topic covers Faster R-CNN, which introduces a deep learning-based approach for region proposal generation. Key points include:
