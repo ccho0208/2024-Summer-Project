@@ -25,7 +25,7 @@ The second topic focuses on Spatial Pyramid Pooling Networks (SPPNs), which enha
 - **Fixed-Length Representations**: SPPNs use spatial pyramid pooling to convert region proposals into fixed-length representations, suitable for fully connected networks.
 - **Flexibility in Spatial Size**: This method allows the model to handle objects of varying spatial sizes without needing to warp or crop them to a fixed size.
 
-### 3. Fast R-CNN
+### 3. Fast R-CNN ([link](https://arxiv.org/pdf/1504.08083))
 The third topic discusses Fast R-CNN, an improved version of R-CNN that streamlines the object detection process. Key points include:
 - **ROI Projection**: Fast R-CNN projects Region of Interest (ROI) proposals onto a convolutional feature map.
 - **ROI Pooling**: The method uses ROI pooling layers to convert variable-sized ROIs into fixed-size feature vectors.
@@ -38,7 +38,7 @@ The third topic discusses Fast R-CNN, an improved version of R-CNN that streamli
 
   where \( $L_{\text{cls}}$ \) is the classification loss and \( $L_{\text{loc}}$ \) is the localization loss.
 
-### 4. Faster R-CNN
+### 4. Faster R-CNN ([link](https://arxiv.org/pdf/1506.01497))
 The fourth topic covers Faster R-CNN, which introduces a deep learning-based approach for region proposal generation. Key points include:
 - **Region Proposal Network (RPN)**: Faster R-CNN integrates a Region Proposal Network that generates region proposals, making the detection process end-to-end.
 - **Anchor Boxes**: The use of anchor boxes in the RPN helps in predicting bounding boxes of different scales and aspect ratios.
