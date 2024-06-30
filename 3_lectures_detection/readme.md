@@ -56,6 +56,11 @@ The fourth topic covers Faster R-CNN, which introduces a deep learning-based app
 - Understanding SSD MultiBox ([link](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab))
 
 
+### 7. Others
+- IOU: Intersection over Union ([link](https://medium.com/analytics-vidhya/iou-intersection-over-union-705a39e7acef))
+- NMS: Non Max Suppression ([link](https://medium.com/analytics-vidhya/non-max-suppression-nms-6623e6572536))
+
+
 ## Files Included
 - `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis.
 - `Lecture_SPPN.pdf`: Comprehensive coverage of SPPNs, with emphasis on their innovations and advantages over traditional R-CNNs.
