@@ -44,10 +44,16 @@ The fourth topic covers Faster R-CNN, which introduces a deep learning-based app
 - **Anchor Boxes**: The use of anchor boxes in the RPN helps in predicting bounding boxes of different scales and aspect ratios.
 - **Pipeline**: The overall pipeline consists of feature extraction -> region proposal -> bounding boxes, streamlining the detection process and significantly improving speed and accuracy.
 
+
 ### 5. YOLO ([link](https://arxiv.org/pdf/1506.02640))
 - YOLO algorithm (Andrew Ng) ([link](https://www.youtube.com/watch?v=9s_FpMpdYW8))
 - What is YOLO algorithm? ([link](https://www.youtube.com/watch?v=ag3DLKsl2vk))
 - Evolution of YOLO algorithm ([link](https://encord.com/blog/yolo-object-detection-guide/))
+
+### 6. SSD: Single Shot MultiBox Detector ([link](https://arxiv.org/pdf/1512.02325))
+- SSD algorithm ([link](https://towardsdatascience.com/review-ssd-single-shot-detector-object-detection-851a94607d11))
+- Understanding SSD MultiBox ([link](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab))
+
 
 ## Files Included
 - `Lecture_R-CNN.pdf`: Detailed notes and explanations on R-CNNs, including their architecture, implementation, and performance analysis.
