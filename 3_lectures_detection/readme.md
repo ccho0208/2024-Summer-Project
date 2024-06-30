@@ -46,6 +46,7 @@ The fourth topic covers Faster R-CNN, which introduces a deep learning-based app
 
 
 ### 5. YOLO ([link](https://arxiv.org/pdf/1506.02640))
+- YOLO Ted talk (Joseph Redmon) ([link](https://www.ted.com/talks/joseph_redmon_how_computers_learn_to_recognize_objects_instantly?language=en&subtitle=en&trigger=15s))
 - YOLO algorithm (Andrew Ng) ([link](https://www.youtube.com/watch?v=9s_FpMpdYW8))
 - What is YOLO algorithm? ([link](https://www.youtube.com/watch?v=ag3DLKsl2vk))
 - Evolution of YOLO algorithm ([link](https://encord.com/blog/yolo-object-detection-guide/))
