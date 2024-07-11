@@ -51,11 +51,16 @@ $ source ~/.venv/venv_torch/bin/activate
 ### 1) CIFAR-10
 The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 60000 32x32 color images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. Raw image files can be found here ([link](https://www.kaggle.com/datasets/yiklunchow/cifar10raw)).
 
+### 2) Pascal-VOC
+
+
 ## Projects
 
 ### 1) Image Classification using CNNs ([link](https://github.com/ccho0208/2024-summer-project_Deep-Learning/tree/main/2_proj_image_classification))
 
-The image classification pipeline implements CNN methods such as VGG and ResNet to classify CIFAR-10 image data. 
+The image classification pipeline implements CNN methods such as VGG and ResNet to classify CIFAR-10 image data.
+
+### 2) Object Detection using YOLOv3
 
 ## Resources
 
