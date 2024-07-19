@@ -43,9 +43,6 @@ $ source ~/.venv/venv_torch/bin/activate
 4) PyTorch model summary: `pip install pytorch-model-summary`
 
 
-### Colab
-
-
 ## Dataset
 
 ### 1) CIFAR-10
