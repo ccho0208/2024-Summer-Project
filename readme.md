@@ -50,6 +50,12 @@ The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 
 
 ### 2) Pascal-VOC
 
+The [Pascal Visual Object Classes (VOC)](http://host.robots.ox.ac.uk/pascal/VOC/) dataset is a benchmark for visual object recognition and detection. It includes 20 object classes and is split into annual challenges with separate training and test sets.
+
+- **VOC 2007**: Contains 9,963 images with 24,640 annotated objects.
+- **VOC 2012**: Contains 11,540 images with 27,450 annotated objects.
+
+Each image is annotated with bounding boxes, object classes, and segmentation masks, supporting tasks like image classification, object detection, and segmentation. This dataset is widely used for developing and benchmarking computer vision models.
 
 ## Projects
 
