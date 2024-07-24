@@ -63,7 +63,7 @@ Each image is annotated with bounding boxes, object classes, and segmentation ma
 
 The image classification pipeline implements CNN methods such as VGG and ResNet to classify CIFAR-10 image data.
 
-### 2) Object Detection using YOLOv3
+### 2) Object Detection using YOLOv3 ([link](https://github.com/ccho0208/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLOv3))
 
 ## Resources
 
