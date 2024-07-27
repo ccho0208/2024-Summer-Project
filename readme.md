@@ -69,7 +69,6 @@ The image classification pipeline implements CNN methods such as VGG and ResNet 
 ## Advanced Topics
 
 ### Deep Generative Models
-- CS236 Deep Generative Models (Prof. Stefano Ermon, Stanford University)
-- Fall 2023: Syllabus ([link](https://deepgenerativemodels.github.io))
+- CS236 Deep Generative Models (Prof. Stefano Ermon, Stanford University) ([link](https://deepgenerativemodels.github.io))
 - Additional Reading: Surveys and Tutorials ([link](https://deepgenerativemodels.github.io/syllabus.html))
 
