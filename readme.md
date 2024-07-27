@@ -65,5 +65,10 @@ The image classification pipeline implements CNN methods such as VGG and ResNet 
 
 ### 2) Object Detection using YOLOv3 ([link](https://github.com/ccho0208/Machine-Learning-Collection/tree/master/ML/Pytorch/object_detection/YOLOv3))
 
-## Resources
+
+## Advanced Topics
+
+### Deep Generative Models
+- CS236 Deep Generative Models (Prof. Stefano Ermon, Stanford University)
+- Syllabus ([link](https://deepgenerativemodels.github.io))
 
